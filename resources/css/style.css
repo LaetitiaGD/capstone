@@ -1,0 +1,113 @@
+body {
+  font-family: Arial;
+  background-color: white;
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 1220px) and (max-width: 1680px){
+body {
+  font-family: Arial;
+  background-color: white;
+}
+}
+
+
+/*Navigation*/
+
+nav {
+  height: 64px;
+  width: 1680px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  text-decoration: none;
+  display: inline;
+}
+
+nav img {
+  float: left;
+  margin-left: 24px;
+  padding-top: 16px;
+}
+
+nav span {
+  text-align: left;
+  padding-top: 16px;
+  margin: 0;
+  height: 32px;
+}
+
+nav .colmar {
+  color: rgb(53, 57, 61);
+font-style: bold;
+}
+
+nav .academy {
+  color: rgb(81, 88, 94);
+}
+
+
+nav ul {
+  text-align: right;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 24px;
+}
+
+nav li {
+  display: inline;
+  display: inline-block;
+  padding: 16px;
+}
+
+/*desktop*/
+@media only screen and (min-width: 1024px) {
+.mobile {
+  display: none;
+}
+}
+/*mobile*/
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+nav .colmar {
+  display: none;
+}
+
+nav .academy {
+  display: none;
+}
+
+nav ul {
+  display: none;
+}
+
+.mobile img {
+  float: inherit;
+}
+}
+
+
+/*Content*/
+
+
+
+/*Header*/
+
+
+
+/*Content Body*/
+
+
+
+/*Highlight*/
+
+
+/*Learning*/
+
+
+/*Exhibit*/
+
+
+
+/*Footer*/
